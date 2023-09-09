@@ -33,7 +33,7 @@
   width: 2;
 }
 
-.user-img {
+.slackDisplayImage {
   max-width: 40%;
   max-height: 40%;
   border-radius: 50%;
@@ -58,7 +58,7 @@
   background: #7b3f00;
 
   display: inline-block;
-  margin: 40px 0;
+  margin: 10px 0;
   font-size: 15px;
 }
 .btn:hover {
@@ -68,8 +68,12 @@
 
 .social-media {
   display: flex;
-  justify-content: space-around;
+  justify-content: end;
 }
 .present__date {
   margin-top: 2rem;
+}
+.present__date {
+  display: flex;
+  justify-content: space-between;
 }
